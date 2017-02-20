@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600");
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  background: #F5F5F5;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.wrapper > * {
+  margin: 10px;
+}
+.wrapper h1 {
+  margin-bottom: 3px;
+}
+.wrapper h5 {
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-weight: 300;
+  font-size: 13px;
+  color: #549F93;
+  letter-spacing: 1px;
+}
+
+h1 {
+  font-weight: 300;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container img {
+  width: 100px;
+}
+.container > * {
+  display: flex;
+  margin: 10px;
+}
+
+.feed {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 500px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+}
+.feed > * {
+  margin: 10px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.info > * {
+  margin: 0;
+}
+.info a {
+  font-size: 15px;
+  color: #404E4D;
+  text-decoration: none;
+}
+.info #score {
+  font-size: 12px;
+}
+
+#get {
+  width: 150px;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  background: #549F93;
+  color: #FFF;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+@media (max-width: 800px) {
+  .feed {
+    width: 100%;
+  }
+}
